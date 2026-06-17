@@ -5,68 +5,69 @@ An Arduino-based omnidirectional robot car controlled entirely by hand gestures 
 
 🚀 Features
 
-📡 Wireless communication using NRF24L01
+  📡 Wireless communication using NRF24L01
 
-🤚 Hand gesture-based control
+  🤚 Hand gesture-based control
 
-↔️ Omnidirectional movement
+  ↔️ Omnidirectional movement
 
-⚡ Real-time response
+  ⚡ Real-time response
 
-🔧 Built using Arduino Nano and Arduino Uno
+  🔧 Built using Arduino Nano and Arduino Uno
 
-🎯 Simple and low-cost design
+  🎯 Simple and low-cost design
+
 
 🎮 Controls
 
 
-Hand Gesture	Car Movement
+ Hand Gesture - Car Movement
 
-Tilt Forward -	Move Forward
+  Tilt Forward -	Move Forward
 
-Tilt Backward -	Reverse
+   Tilt Backward -	Reverse
 
-Tilt Left -	Strafe Left
+   Tilt Left -	Strafe Left
 
-Tilt Right -	Strafe Right
+   Tilt Right -	Strafe Right
 
-Rotate Hand Left/Right - Rotate Car
+   Rotate Hand Left/Right - Rotate Car
 
 
 
 🛠 Hardware Used
 
-Transmitter
+ Transmitter
 
-Arduino Nano
+   Arduino Nano
 
-MPU6050
+   MPU6050
 
-NRF24L01
+   NRF24L01
 
 
-Receiver
+ Receiver
 
-Arduino Uno
+   Arduino Uno
 
-NRF24L01
+   NRF24L01
 
-2 × L298N Motor Drivers
+   2 × L298N Motor Drivers
 
-4 × DC Motors
+   4 × DC Motors
 
-Omnidirectional (Mecanum) Wheels
+   Omnidirectional (Mecanum) Wheels
 
 
 
 ⚙️ How It Works
 
-The MPU6050 measures the orientation of the user's hand.
-The Arduino Nano processes the sensor data.
-Movement commands are transmitted wirelessly using the NRF24L01 module.
-The Arduino Uno receives the commands.
-The motor drivers control the motors accordingly.
-The car moves in the desired direction based on the detected gesture.
+  The MPU6050 measures the orientation of the user's hand.
+  The Arduino Nano processes the sensor data.
+  Movement commands are transmitted wirelessly using the NRF24L01 module.
+  The Arduino Uno receives the commands.
+  The motor drivers control the motors accordingly.
+  The car moves in the desired direction based on the detected gesture.
 
 👨‍💻 Author
 
