@@ -6,21 +6,32 @@ An Arduino-based omnidirectional robot car controlled entirely by hand gestures 
 🚀 Features
 
 📡 Wireless communication using NRF24L01
+
 🤚 Hand gesture-based control
+
 ↔️ Omnidirectional movement
+
 ⚡ Real-time response
+
 🔧 Built using Arduino Nano and Arduino Uno
+
 🎯 Simple and low-cost design
+
 🎮 Controls
 
 
 Hand Gesture	Car Movement
 
 Tilt Forward -	Move Forward
+
 Tilt Backward -	Reverse
+
 Tilt Left -	Strafe Left
+
 Tilt Right -	Strafe Right
+
 Rotate Hand Left/Right - Rotate Car
+
 
 
 🛠 Hardware Used
@@ -28,15 +39,24 @@ Rotate Hand Left/Right - Rotate Car
 Transmitter
 
 Arduino Nano
+
 MPU6050
+
 NRF24L01
 
+
 Receiver
+
 Arduino Uno
+
 NRF24L01
+
 2 × L298N Motor Drivers
+
 4 × DC Motors
+
 Omnidirectional (Mecanum) Wheels
+
 
 
 ⚙️ How It Works
