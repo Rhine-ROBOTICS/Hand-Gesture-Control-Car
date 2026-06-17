@@ -1,9 +1,10 @@
-🤖 Hand Gesture Control Car
+🤖 **Hand Gesture Control Car**
 
 An Arduino-based omnidirectional robot car controlled entirely by hand gestures using an MPU6050 accelerometer and gyroscope. The transmitter detects hand movements and sends commands wirelessly through NRF24L01 modules, allowing the robot to move in multiple directions without any physical controller.
 
+---
 
-🚀 Features
+🚀 **Features**
 
   📡 Wireless communication using NRF24L01
 
@@ -17,50 +18,52 @@ An Arduino-based omnidirectional robot car controlled entirely by hand gestures 
 
   🎯 Simple and low-cost design
 
+---
 
-🎮 Controls
-
-
- Hand Gesture - Car Movement
-
-  Tilt Forward -	Move Forward
-
-   Tilt Backward -	Reverse
-
-   Tilt Left -	Strafe Left
-
-   Tilt Right -	Strafe Right
-
-   Rotate Hand Left/Right - Rotate Car
+🎮 **Controls**
 
 
+ * Hand Gesture - Car Movement
 
-🛠 Hardware Used
+   - Tilt Forward -	Move Forward
 
- Transmitter
+   - Tilt Backward -	Reverse
 
-   Arduino Nano
+   - Tilt Left -	Strafe Left
 
-   MPU6050
+   - Tilt Right -	Strafe Right
 
-   NRF24L01
+   - Rotate Hand Left/Right - Rotate Car
 
-
- Receiver
-
-   Arduino Uno
-
-   NRF24L01
-
-   2 × L298N Motor Drivers
-
-   4 × DC Motors
-
-   Omnidirectional (Mecanum) Wheels
+---
 
 
+🛠 **Hardware Used**
 
-⚙️ How It Works
+ * Transmitter
+
+   - Arduino Nano
+
+   - MPU6050
+
+   - NRF24L01
+
+
+ * Receiver
+
+   - Arduino Uno
+
+   - NRF24L01
+
+   - 2 × L298N Motor Drivers
+
+   - 4 × DC Motors
+
+   - Omnidirectional (Mecanum) Wheels
+
+
+
+⚙️ **How It Works**
 
   The MPU6050 measures the orientation of the user's hand.
   The Arduino Nano processes the sensor data.
@@ -69,12 +72,12 @@ An Arduino-based omnidirectional robot car controlled entirely by hand gestures 
   The motor drivers control the motors accordingly.
   The car moves in the desired direction based on the detected gesture.
 
-👨‍💻 Author
+👨‍💻 **Author**
 
-Saptaswa Jana
+**Saptaswa Jana**
 
-🎓 CSE (AI & ML) Student, KIIT
-🤖 Robotics & Embedded Systems Enthusiast
-🚁 Drone Builder | Arduino Developer | Maker
+🎓 **CSE (AI & ML) Student, KIIT**
+🤖 **Robotics & Embedded Systems Enthusiast**
+🚁 **Drone Builder | Arduino Developer | Maker**
 
 If you found this project interesting, consider giving it a ⭐!
