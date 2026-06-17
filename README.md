@@ -77,7 +77,10 @@ An Arduino-based omnidirectional robot car controlled entirely by hand gestures 
 **Saptaswa Jana**
 
 🎓 **CSE (AI & ML) Student, KIIT**
+
 🤖 **Robotics & Embedded Systems Enthusiast**
+
 🚁 **Drone Builder | Arduino Developer | Maker**
+
 
 If you found this project interesting, consider giving it a ⭐!
